@@ -8,7 +8,7 @@ const Sidebar = () => {
       <h2>Superadmin Menu</h2>
       <ul className="sidebar-menu">
         <li>
-          <Link to="/dashboard">Dashboard</Link>
+          <Link to="/">Dashboard</Link>
         </li>
         <li>
           <Link to="/create-hospital">Create Hospital</Link>
