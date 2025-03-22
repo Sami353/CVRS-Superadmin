@@ -1,5 +1,6 @@
 import React from 'react'
 import CIcon from '@coreui/icons-react'
+import {cilHospital ,cilChild } from '@coreui/icons';
 import {
   cilDescription,
   cilSpeedometer,
@@ -13,33 +14,18 @@ const _nav = [
     name: 'Dashboard',
     to: '/dashboard',
     icon: <CIcon icon={cilSpeedometer} customClassName="nav-icon" />,
-    badge: {
-      color: 'info',
-      text: 'NEW',
-    },
-  },
-  {
-    component: CNavGroup,
-    name: 'Pages',
-    icon: <CIcon icon={cilStar} customClassName="nav-icon" />,
-    items: [
-      {
-        component: CNavItem,
-        name: 'Login',
-        to: '/login',
-      },
-      {
-        component: CNavItem,
-        name: 'Register',
-        to: '/register',
-      },
-    ],
   },
   {
     component: CNavItem,
-    name: 'Docs',
-    href: 'https://coreui.io/react/docs/templates/installation/',
-    icon: <CIcon icon={cilDescription} customClassName="nav-icon" />,
+    name: 'Child Register',
+    to: '/registerChild',
+    icon: <CIcon icon={cilChild} customClassName="nav-icon" />,
+  },
+  {
+    component: CNavItem,
+    name: 'List of Hospitals',
+    to: '/listHospital',
+    icon: <CIcon icon={cilHospital} customClassName="nav-icon" />,
   },
 ]
 

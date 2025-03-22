@@ -13,7 +13,7 @@ import CIcon from '@coreui/icons-react'
 
 import { AppSidebarNav } from './AppSidebarNav'
 
-import { logo } from '../assets/brand/logo'
+import logo from '../assets/brand/logo.jpeg'
 import { sygnet } from '../assets/brand/sygnet'
 
 // sidebar nav config
