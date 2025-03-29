@@ -11,7 +11,7 @@ const childRegister = () => {
             <CRow>
                 <CCol xs>
                     <CCard className="mb-4 p-4">
-                        <CCardHeader>Add Hospital</CCardHeader>
+                        <CCardHeader>Add Vaccine</CCardHeader>
                         <CForm className="row g-3">
                             <CCol md={6}>
                                 <CFormInput type="text" id="inputName" label="First Name" />

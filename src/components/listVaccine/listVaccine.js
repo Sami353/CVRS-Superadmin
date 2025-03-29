@@ -77,7 +77,7 @@ const listHospital = () => {
               <CTableHeaderCell className="bg-body-tertiary text-center">
                 <CIcon icon={cilPeople} />
               </CTableHeaderCell>
-              <CTableHeaderCell className="bg-body-tertiary">Hospitals</CTableHeaderCell>
+              <CTableHeaderCell className="bg-body-tertiary">Vaccine</CTableHeaderCell>
               <CTableHeaderCell className="bg-body-tertiary">Actions</CTableHeaderCell>
             </CTableRow>
           </CTableHead>

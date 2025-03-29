@@ -4,15 +4,13 @@ import {
     CButton, CCol, CForm, CFormCheck, CFormInput, CFormSelect, CRow, CCard, CCardHeader
 } from '@coreui/react'
 
-import WidgetsDropdown from '../widgets/WidgetsDropdown'
-
 const childRegister = () => {
 
     return (
         <>
             <CRow>
                 <CCol xs>
-                    <CCard className="mb-4">
+                    <CCard className="mb-4 p-4">
                         <CCardHeader>Child Registration</CCardHeader>
                         <CForm className="row g-3">
                             <CCol md={6}>
@@ -54,7 +52,7 @@ const childRegister = () => {
                             </CCol>
                             <CCol xs={12}>
                                 <CButton color="primary" type="submit">
-                                    Sign in
+                                    Submit
                                 </CButton>
                             </CCol>
                         </CForm>
