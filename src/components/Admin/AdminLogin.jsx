@@ -16,7 +16,7 @@ import {
 import CIcon from '@coreui/icons-react'
 import { cilLockLocked, cilUser } from '@coreui/icons'
 
-const adminLogin = () => {
+const AdminLogin = () => {
   return (
     <div className="bg-body-tertiary min-vh-100 d-flex flex-row align-items-center">
       <CContainer>
@@ -83,4 +83,4 @@ const adminLogin = () => {
   )
 }
 
-export default adminLogin
+export default AdminLogin

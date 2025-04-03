@@ -27,6 +27,12 @@ const _nav = [
     to: '/listHospital',
     icon: <CIcon icon={cilHospital} customClassName="nav-icon" />,
   },
+  {
+    component: CNavItem,
+    name: 'List of childs',
+    to: '/listChild',
+    icon: <CIcon icon={cilHospital} customClassName="nav-icon" />,
+  },
 ]
 
 export default _nav
